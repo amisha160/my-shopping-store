@@ -52,8 +52,7 @@ My Shopping Store is a multi-page static shopping website built to demonstrate c
 ---
 
 ## Live Demo
-
-
+ https://amisha160.github.io/my-shopping-store/
 
 ---
 
