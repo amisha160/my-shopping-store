@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h2 { color: blue; }
+        .contact-img {
+            width: 200px;
+            height: 140px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 60px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <h1>🛍️ Contact Us</h1>
+</div>
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="order.html">Order</a>
+    <a href="contact.html">Contact</a>
+</div>
+<div class="container">
+    <h2>Get in Touch</h2>
+    <p>Address: Bangalore, India</p>
+    <p>Email: kschandana151@gmail.com</p>
+    <p>Phone: 9880991379</p>
+
+    <!-- contact.jpg replaced with emoji box -->
+    <div class="contact-img">📞</div>
+
+    <br>
+    <button onclick="showMessage()">Click Me</button>
+    <p id="msg"></p>
+</div>
+<div class="footer">
+    <p>© 2026 My Shopping Store</p>
+</div>
+<script>
+function showMessage() {
+    document.getElementById("msg").innerHTML = "Thank you for contacting us!";
+}
+</script>
+</body>
+</html>

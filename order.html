@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="header">
+    <h1>🛍️ Place Your Order</h1>
+</div>
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="order.html">Order</a>
+    <a href="contact.html">Contact</a>
+</div>
+<div class="container">
+    <h2>Order Form</h2>
+    <form action="http://localhost:3000/order" method="POST">
+        Name: <input type="text" name="name" required><br><br>
+        Product: <input type="text" name="product" required><br><br>
+        Quantity: <input type="number" name="quantity" required><br><br>
+        Address: <input type="text" name="address" required><br><br>
+        <input type="submit" value="Place Order">
+    </form>
+</div>
+<div class="footer">
+    <p>© 2026 My Shopping Store</p>
+</div>
+</body>
+</html>

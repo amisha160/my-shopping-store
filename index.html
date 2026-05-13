@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopping Website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .banner-box {
+            background: linear-gradient(135deg, #1a1a2e, #e94560);
+            border-radius: 12px;
+            padding: 40px 20px;
+            text-align: center;
+            color: white;
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+        .banner-box span {
+            font-size: 60px;
+            display: block;
+            margin-bottom: 10px;
+        }
+        ul li {
+            padding: 6px 0;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <h1>🛍️ My Shopping Store</h1>
+</div>
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="order.html">Order</a>
+    <a href="contact.html">Contact</a>
+</div>
+<div class="container">
+    <h2>Welcome to Our Store</h2>
+    <p>Best products at affordable prices.</p>
+
+    <!-- banner.jpg replaced with CSS box -->
+    <div class="banner-box">
+        <span>🛒</span>
+        Shop the Best — Delivered to You!
+    </div>
+
+    <h3>Categories:</h3>
+    <ul>
+        <li>👕 Clothing</li>
+        <li>🎧 Electronics</li>
+        <li>⌚ Accessories</li>
+    </ul>
+
+    <button onclick="showOffer()">🎁 Click for Offer</button>
+    <p id="offerMsg" style="color:#e94560; font-weight:bold; font-size:18px;"></p>
+</div>
+<div class="footer">
+    <p>© 2026 My Shopping Store</p>
+</div>
+<script>
+function showOffer() {
+    document.getElementById("offerMsg").innerHTML = "🎉 Get 20% discount on all products!";
+}
+</script>
+</body>
+</html>
